@@ -1,1 +1,38 @@
 # oseong
+포천 오성과한음체
+
+<pre>
+@font-face {
+    font-family: "oseong";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Regular.eot");
+    src: url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Regular.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Regular.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Regular.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Regular.ttf") format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: "oseong";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Bold.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Bold.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Bold.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/wefonts/oseong/oseong-Bold.ttf") format("truetype");
+    font-display: swap;
+} 
+.oseong {
+    font-family: "oseong";
+}
+.oseong400 {
+    font-family: "oseong";
+    font-weight: 400;
+}
+.oseong700 {
+    font-family: "oseong";
+    font-weight: 700;
+}
+</pre>
